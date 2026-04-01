@@ -5,9 +5,25 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 
+function inizialiParole(array){
+    let newArray = [];
+
+    for (let i=0; i<array.length; i++) {
+        newArray.push(array[i][0]);
+    }
+    return newArray;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+console.log(inizialiParole(names));
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
+
+/* ARROW FUNCTION
+function inizialiParole(array) {
+    return array.map(nome => 
+        nome[0]
+    );
+}
+*/

@@ -16,3 +16,14 @@ const name = 'Mario';
 
 
 //Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.
+
+/*const word = 'javascript';
+
+// Dichiara la funzione qui.
+const contaVocali = (stringa) => {
+    const vocali = "aeiouAEIOU";
+    return stringa.split("").filter(lettera => vocali.includes(lettera)).length;
+};
+
+// Invoca la funzione qui e stampa il risultato in console
+console.log(contaVocali(word));*/

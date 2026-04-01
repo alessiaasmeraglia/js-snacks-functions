@@ -2,12 +2,15 @@
 
 const userName = 'Mario';
 
-
 // Dichiara la funzione qui.
 
+function saluta(nome){
+    return `Ciao ${nome}`;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+console.log(saluta(userName));
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
+
