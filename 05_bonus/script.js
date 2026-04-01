@@ -9,21 +9,31 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
+function salutaNome(nome, ora) {
+    if (ora <= 13) {
+        return "Buongiorno " + nome + ".";
+    } else if (ora <= 17) {
+        return "Buon pomeriggio " + nome + ".";
+    } else {
+        return "Buonasera " + nome + ".";
+    }
+}
 
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+console.log(salutaNome(name, 18));
 
 //Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.
 
-/*const word = 'javascript';
+/* function salutaNome(nome) {
+    const ora = new Date().getHours();
 
-// Dichiara la funzione qui.
-const contaVocali = (stringa) => {
-    const vocali = "aeiouAEIOU";
-    return stringa.split("").filter(lettera => vocali.includes(lettera)).length;
-};
-
-// Invoca la funzione qui e stampa il risultato in console
-console.log(contaVocali(word));*/
+    if (ora <= 13) {
+        return "Buongiorno " + nome + ".";
+    } else if (ora <= 17) {
+        return "Buon pomeriggio " + nome + ".";
+    } else {
+        return "Buonasera " + nome + ".";
+    }
+} */

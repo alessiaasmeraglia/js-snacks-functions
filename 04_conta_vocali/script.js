@@ -22,3 +22,14 @@ function contaVocali(stringa) {
 console.log(contaVocali(word));
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)
+
+/*const word = 'javascript';
+
+// Dichiara la funzione qui.
+const contaVocali = (stringa) => {
+    const vocali = "aeiouAEIOU";
+    return stringa.split("").filter(lettera => vocali.includes(lettera)).length;
+};
+
+// Invoca la funzione qui e stampa il risultato in console
+console.log(contaVocali(word));*/
